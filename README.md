@@ -8,18 +8,6 @@ actin filament orientations
 
 ---
 
-## Features
-* Store values and retain the prior value in memory
-* ... some other functionality
-
-## Quick Start
-```python
-from actincme import Example
-
-a = Example()
-a.get_value()  # 10
-```
-
 ## Installation
 
  `git clone https://github.com/RangamaniLabUCSD/actincme.git`
@@ -113,5 +101,4 @@ atomic and as a side effect naturally encourages small well defined PR's.
 properly rebasing from what I can tell. You should always rebase locally on the CLI until they fix it.
 
 
-***Free software: MIT license***
 

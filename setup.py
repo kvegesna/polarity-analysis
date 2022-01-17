@@ -62,8 +62,8 @@ extra_requirements = {
 }
 
 setup(
-    author="Ritvik Vasan",
-    author_email="rvasan@eng.ucsd.edu",
+    author="",
+    author_email="",
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Intended Audience :: Developers",
@@ -72,11 +72,6 @@ setup(
         "Programming Language :: Python :: 3.7",
     ],
     description="actin filament orientations",
-    entry_points={
-        "console_scripts": [
-            "my_example=actincme.bin.my_example:main"
-        ],
-    },
     install_requires=requirements,
     license="MIT license",
     long_description=readme,
@@ -87,7 +82,6 @@ setup(
     packages=find_packages(exclude=["tests", "*.tests", "*.tests.*"]),
     python_requires=">=3.6",
     setup_requires=setup_requirements,
-    test_suite="actincme/tests",
     tests_require=test_requirements,
     extras_require=extra_requirements,
     url="https://github.com/RangamaniLabUCSD/actincme",
